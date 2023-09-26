@@ -1,0 +1,13 @@
+<h1>Lista de Personagens</h1>
+<div class="cards">
+    <div class="card" *ngFor="let character of characters" style="width: 18rem;">
+        <img [src]="character.imageUrl" class="card-img-top" alt="{{ character.fullName }}">
+        <div class="card-body">
+            <h5 class="card-title">{{ character.fullName }}</h5>
+            <p class="card-text">Família: {{ character.family }}</p>
+            <p class="card-text">Primeiro Nome: {{ character.firstName }}</p>
+            <p class="card-text">Sobrenome: {{ character.lastName }}</p>
+            <p class="card-text">Título: {{ character.title }}</p>
+        </div>
+    </div>
+</div>
