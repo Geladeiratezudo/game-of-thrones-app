@@ -5,3 +5,7 @@
     justify-content: space-around;
     align-items: flex-start;
 }
+h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,22 @@
+h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+ height: 300px;
+ display: inline-block;
+ position: relative;
+ margin: 20px;
+}
+.card{
+    display:flex;
+    flex-direction: row;
+
+        
+}
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
